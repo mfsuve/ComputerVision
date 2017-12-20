@@ -8,7 +8,7 @@ copied the original array of that picture and modified it. The array of my pictu
 dimension. The first 2 is the size of that picture and the last dimension has a size of 3
 which stores the RGB values. When I want to display channels, I clear the other ones.
 
-    For the images, 0 represents blue color, 1 represents green color and 2 represents red color at the 3rd dimensions of each array. For example I need to clear all the zeroth and the first elements of the array in order to get the red channel. The similar approach is used for the combining channels. ''Red+Green'' ''Red+Blue'' ''Green+Blue''
+    For the images, 0 represents blue color, 1 represents green color and 2 represents red color at the 3rd dimensions of each array. For example I need to clear all the zeroth and the first elements of the array in order to get the red channel. The similar approach is used for the combining channels. `Red+Green` `Red+Blue` `Green+Blue`
 
 2. For getting an average grayscale image, I got the average of the 3 elements (RGB) in
 the arrays at the 3rd dimension and filled a new 2 dimensional array with that values.
