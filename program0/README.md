@@ -14,8 +14,8 @@ which stores the RGB values. When I want to display channels, I clear the other 
 the arrays at the 3rd dimension and filled a new 2 dimensional array with that values.
 The max value in that image is 249.0 and the min value is 0.66. In order to find how
 many bits we need to use to represent this image, I used this formula:
-
-   log<sub>2</sub>(𝑚𝑎𝑥 − 𝑚𝑖𝑛) = 7.956
+   
+   ![formula](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Clog_2%20%28max%20-%20min%29%20%3D%207.956)
 
    Hence, the minimum possible number of bits to represent this image (an integer) is 8.
 
